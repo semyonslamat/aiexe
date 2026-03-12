@@ -1,0 +1,46 @@
+# Dependencies
+node_modules/
+backend/venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Environment
+.env
+.env.local
+*.local
+
+# Logs
+*.log
+npm-debug.log*
+
+# Testing
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Build
+frontend/dist/
+
+# Claude
+.claude/
+.playwright-mcp/
+
+# Misc
+*.tmp
+.DS_Store
+Thumbs.db
